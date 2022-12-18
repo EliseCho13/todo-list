@@ -9,13 +9,12 @@ function Nav() {
   return (
     <div id="nav-body">
       <span id="title">
-        <img id="logo" src="../logo.png" alt="logo" />
-        <span id="name">CMarket</span>
+        <span id="name">ToDoList</span>
       </span>
       <div id="menu">
-        <Link to="/">상품리스트</Link>
-        <Link to="/shoppingcart">
-          장바구니<span id="nav-item-counter">{state.cartItems.length}</span>
+        <Link to="/">오늘의 할 일</Link>
+        <Link to="/mypage">
+          마이페이지
         </Link>
       </div>
     </div>

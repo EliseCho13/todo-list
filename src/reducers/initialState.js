@@ -3,65 +3,38 @@ export const initialState =
   "items": [
     {
       "id": 1,
-      "name": "노른자 분리기",
-      "img": "../images/egg.png",
-      "price": 9900
+      "name": "바스크 치즈케이크 만들기",
+      "date": "2022-12-17",
+      "time": "18:00",
+      "memo": "빌려준 레시피북 받아와야 함"
     },
     {
       "id": 2,
-      "name": "2020년 달력",
-      "img": "../images/2020.jpg",
-      "price": 12000
+      "name": "2023년 달력 제작 주문",
+      "date": "2022-12-18",
+      "time": "13:30",
+      "memo": "사진 파일들은 달력2023 폴더에 있음."
     },
     {
       "id": 3,
-      "name": "개구리 안대",
-      "img": "../images/frog.jpg",
-      "price": 2900
+      "name": "회고 블로깅 정리",
+      "date": "2022-12-22",
+      "time": "15:00",
+      "memo": "챕터 4 CI/CD Deploy 내용 정리"
     },
     {
       "id": 4,
-      "name": "뜯어온 보도블럭",
-      "img": "../images/block.jpg",
-      "price": 4900
+      "name": "과제 마무리하기",
+      "date": "2022-12-17",
+      "time": "18:00",
+      "memo": "todo list 만들기를 todo list에 넣는 모순"
     },
     {
       "id": 5,
-      "name": "칼라 립스틱",
-      "img": "../images/lip.jpg",
-      "price": 2900
-    },
-    {
-      "id": 6,
-      "name": "잉어 슈즈",
-      "img": "../images/fish.jpg",
-      "price": 3900
-    },
-    {
-      "id": 7,
-      "name": "웰컴 매트",
-      "img": "../images/welcome.jpg",
-      "price": 6900
-    },
-    {
-      "id": 8,
-      "name": "강시 모자",
-      "img": "../images/hat.jpg",
-      "price": 9900
-    }
-  ],
-  "cartItems": [
-    {
-      "itemId": 1,
-      "quantity": 1
-    },
-    {
-      "itemId": 5,
-      "quantity": 7
-    },
-    {
-      "itemId": 2,
-      "quantity": 3
+      "name": "휴대폰 액정 수리",
+      "date": "2022-12-20",
+      "time": "10:00",
+      "memo": "skt 종각역점에 방문하기"
     }
   ],
   "notifications": [

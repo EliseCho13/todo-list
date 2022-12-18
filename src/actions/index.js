@@ -1,31 +1,44 @@
 // action types
-export const ADD_TO_CART = "ADD_TO_CART";
-export const REMOVE_FROM_CART = "REMOVE_FROM_CART";
-export const SET_QUANTITY = "SET_QUANTITY";
+export const ADD_TO_LIST = "ADD_TO_LIST";
+export const REMOVE_FROM_LIST = "REMOVE_FROM_LIST";
+export const EDIT = "EDIT";
 export const NOTIFY = "NOTIFY";
 export const ENQUEUE_NOTIFICATION = "ENQUEUE_NOTIFICATION";
 export const DEQUEUE_NOTIFICATION = "DEQUEUE_NOTIFICATION";
 
 // actions creator functions
-export const addToCart = (itemId) => {
+export const addToList = (itemId, name, date, time, memo) => {
   return {
-    type: ADD_TO_CART,
+    type: ADD_TO_LIST,
     payload: {
-      quantity: 1,
+      itemId,
+      name,
+      date,
+      time,
+      memo
+    }
+  }
+}
+
+export const removeFromList = (itemId) => {
+  return {
+    type: REMOVE_FROM_LIST,
+    payload: {
       itemId
     }
   }
 }
 
-export const removeFromCart = (itemId) => {
+export const edit = (itemId, name, date, time, memo) => {
   return {
-    //TODO
-  }
-}
-
-export const setQuantity = (itemId, quantity) => {
-  return {
-    //TODO
+    type: EDIT,
+    payload: {
+      itemId,
+      name,
+      date,
+      time,
+      memo
+    }
   }
 }
 
